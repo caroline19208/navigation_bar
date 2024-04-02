@@ -13,7 +13,6 @@
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
 
 	<!-------->
-
 	<style>
 		* {
 			margin: 0;
@@ -56,7 +55,7 @@
 </head>
 
 <body>
-
+	
 	<nav class="navMenu  border">
 		<a id="home" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-house"></i> Home</a>
 		<a id="inbox" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-inbox"></i> Inbox</a>
@@ -77,7 +76,6 @@
 
 
 	<script>
-		theme: jekyll-theme-hacker
 		let direction = "horizontal";
 		if (direction === "vertical") {
 			document.head.insertAdjacentHTML("beforeend", `<style>.navMenu a {display: block; text-align:left; margin:7px} i{width:15px; margin-right:5px} .navMenu{margin:3px}</style>`)
